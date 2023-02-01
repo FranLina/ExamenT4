@@ -9,9 +9,9 @@ public interface PermisoService {
 
     public Permiso findById(int codigo);
 
-    public void insert(Permiso departamento);
+    public void insert(Permiso permiso);
 
-    public void update(Permiso departamento);
+    public void update(Permiso permiso);
 
     public void delete(int codigo);
 }
