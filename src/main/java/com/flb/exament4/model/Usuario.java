@@ -3,6 +3,7 @@ package com.flb.exament4.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+//import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
 @Entity
@@ -16,6 +17,8 @@ public class Usuario {
     Grupo grupo;
     String nombre;
     String email;
+    //@ManyToMany
+    //Permiso permiso;
 
     public Usuario() {
     }
